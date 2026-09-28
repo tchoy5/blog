@@ -65,7 +65,8 @@ footer {
 
 .photo-item img {
     width: 100%;
-    height: auto;
+    height: 250px;        /* Force a specific height */
+    object-fit: cover;    /* This crops the image slightly to fill the box perfectly */
     border-radius: 4px;
     border: 1px solid #eee;
 }
