@@ -55,3 +55,23 @@ footer {
     border-top: 1px solid #eee;
     padding-top: 1rem;
 }
+
+/* Gallery Styles */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.photo-item p {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.9rem;
+    color: #666;
+}
